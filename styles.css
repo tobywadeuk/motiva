@@ -242,14 +242,14 @@ a:hover {
 }
 
 @media screen and (max-width: 1000px) {
-  .theimg {
-    height: 250px;
+  html {
+    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 700px) {
   .theimg {
-    display: none;
+    width: 100vw;
   }
   .top {
     width: 95vw;
@@ -258,9 +258,6 @@ a:hover {
 
 @media screen and (max-width: 500px) {
   html {
-    font-size: 12px;
-  }
-  .bottomtext {
-    max-width: 25ch;
+    font-size: 10px;
   }
 }

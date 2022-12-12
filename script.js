@@ -184,4 +184,4 @@ let randomNum = Math.floor(Math.random() * 180);
 
 // let text = document.createTextNode(videos[randomNum]);
 // middle.appendChild(text);
-window.open(videos[randomNum]);
+// window.open(videos[randomNum]);
